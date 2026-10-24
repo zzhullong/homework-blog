@@ -1,0 +1,10 @@
+# 本地环境变量（含 JWT_SECRET 等敏感配置，参考 .env.example）
+.env
+
+# SQLite 数据库文件（运行时生成，不应提交）
+*.db
+*.db-shm
+*.db-wal
+
+# 编译产物
+bin/
